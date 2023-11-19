@@ -10,30 +10,30 @@ const config: Config = {
     extend: {
       colors: {
         primary: {
-          DEFAULT: "var(--primary)",
+          DEFAULT: "rgb(var(--primary) / <alpha-value>)",
         },
         background: {
-          DEFAULT: "var(--bg-50)",
-          50: "var(--bg-50)",
+          DEFAULT: "rgb(var(--bg-50) / <alpha-value>)",
+          50: "rgb(var(--bg-50) / <alpha-value>)",
         },
         border: {
-          DEFAULT: "var(--border-50)",
-          50: "var(--border-50)",
-          30: "var(--border-30)",
+          DEFAULT: "rgb(var(--border-50) / <alpha-value>)",
+          50: "rgb(var(--border-50) / <alpha-value>)",
+          30: "rgb(var(--border-30) / <alpha-value>)",
         },
         gray: {
-          10: "var(--border-10)",
-          40: "var(--border-40)",
-          60: "var(--border-60)",
-          70: "var(--border-70)",
-          80: "var(--border-80)",
+          10: "rgb(var(--border-10) / <alpha-value>)",
+          40: "rgb(var(--border-40) / <alpha-value>)",
+          60: "rgb(var(--border-60) / <alpha-value>)",
+          70: "rgb(var(--border-70) / <alpha-value>)",
+          80: "rgb(var(--border-80) / <alpha-value>)",
         },
         text: {
-          DEFAULT: "var(--text)",
-          secondary: "var(--text-secondary)",
+          DEFAULT: "rgb(var(--text) / <alpha-value>)",
+          secondary: "rgb(var(--text-secondary) / <alpha-value>)",
           light: {
-            DEFAULT: "var(--text-light)",
-            secondary: "var(--text-light-secondary)",
+            DEFAULT: "rgb(var(--text-light) / <alpha-value>)",
+            secondary: "rgb(var(--text-light-secondary) / <alpha-value>)",
           },
         },
       },
@@ -44,10 +44,11 @@ const config: Config = {
       },
       fontSize: {
         xl: "32px",
-        lg: "2px",
+        lg: "20px",
         md: "18px",
         base: "16px",
         sm: "14px",
+        xs: "12px",
       },
     },
   },

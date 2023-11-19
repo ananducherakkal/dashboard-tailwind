@@ -4,35 +4,35 @@
 
 @layer base {
   :root {
-    --primary: #fff27a;
-    --bg-50: #242529;
-    --border-50: #2e2f33;
-    --border-30: #7f7f7f;
-    --gray-80: #242529;
-    --gray-70: #36373e;
-    --gray-60: #494949;
-    --gray-40: #968c88;
-    --gray-10: #fff9ed;
-    --text: #242529;
-    --text-secondary: #494949;
-    --text-light: #fff9ed;
-    --text-light-secondary: #968c88;
+    --primary: 255 242 122;
+    --bg-50: 36 37 41;
+    --border-50: 46 47 51;
+    --border-30: 127 127 127;
+    --gray-80: 36 37 41;
+    --gray-70: 54 55 62;
+    --gray-60: 73 73 73;
+    --gray-40: 150 140 136;
+    --gray-10: 255 249 237;
+    --text: 36 37 41;
+    --text-secondary: 73 73 73;
+    --text-light: 255 249 237;
+    --text-light-secondary: 150 140 136;
   }
 
   .dark {
-    --primary: #fff27a;
-    --bg-50: #242529;
-    --border-50: #2e2f33;
-    --border-30: #7f7f7f;
-    --gray-80: #242529;
-    --gray-70: #36373e;
-    --gray-60: #494949;
-    --gray-40: #968c88;
-    --gray-10: #fff9ed;
-    --text: #242529;
-    --text-secondary: #494949;
-    --text-light: #fff9ed;
-    --text-light-secondary: #968c88;
+    --primary: 255 242 122;
+    --bg-50: 36 37 41;
+    --border-50: 46 47 51;
+    --border-30: 127 127 127;
+    --gray-80: 36 37 41;
+    --gray-70: 54 55 62;
+    --gray-60: 73 73 73;
+    --gray-40: 150 140 136;
+    --gray-10: 255 249 237;
+    --text: 36 37 41;
+    --text-secondary: 73 73 73;
+    --text-light: 255 249 237;
+    --text-light-secondary: 150 140 136;
   }
 
   :root {
