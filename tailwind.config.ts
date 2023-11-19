@@ -9,6 +9,9 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
+        primary: {
+          DEFAULT: "var(--primary)",
+        },
         background: {
           DEFAULT: "var(--bg-50)",
           50: "var(--bg-50)",
@@ -38,6 +41,13 @@ const config: Config = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      },
+      fontSize: {
+        xl: "32px",
+        lg: "2px",
+        md: "18px",
+        base: "16px",
+        sm: "14px",
       },
     },
   },
