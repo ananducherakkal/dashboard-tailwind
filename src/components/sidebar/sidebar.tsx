@@ -1,4 +1,5 @@
 "use client";
+import SidebarDarkMode from "./sidebarDarkMode";
 import SidebarLogo from "./sidebarLogo";
 import SidebarMenu from "./sidebarMenu";
 import SidebarProfile from "./sidebarProfile";
@@ -12,6 +13,7 @@ function Sidebar() {
         <SidebarLogo />
         <SidebarProfile />
         <SidebarMenu />
+        <SidebarDarkMode />
       </SidebarWrapper>
     </StoreProvider>
   );
