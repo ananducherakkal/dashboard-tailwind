@@ -4,7 +4,7 @@ import Button from "../ui/button";
 
 function SidebarProfile() {
   return (
-    <div className="flex flex-col items-center">
+    <div className="flex flex-col items-center mt-5">
       <div className="w-20 h-20 mb-4 rounded-full overflow-hidden bg-gray-30">
         <Image
           src="/images/profile-image.png"
