@@ -4,18 +4,23 @@ import Input from "../ui/input";
 import MagnifingGlassIcon from "../icons/magnifingGlass";
 import Button from "../ui/button";
 import BellIcon from "../icons/bell";
+import SidebarToggleButton from "../sidebar/sidebarToggleButton";
+import StoreProvider from "@/redux/storeProvider";
 
 function DashboardHeader() {
   return (
-    <div className="w-full flex items-center">
+    <div className="w-full flex items-start">
       <div className="flex items-center flex-1">
+        <StoreProvider>
+          <SidebarToggleButton className="mr-2" />
+        </StoreProvider>
         <h1 className="text-xl">Statistics</h1>
         <Input
           variant="transparent"
           placeholder="Search something..."
           icon={<MagnifingGlassIcon className="h-4 w-4" />}
           iconPosition="left"
-          className="mx-auto w-52"
+          className="mx-auto w-48 hidden md:block"
         />
       </div>
       <div className="flex space-x-2">

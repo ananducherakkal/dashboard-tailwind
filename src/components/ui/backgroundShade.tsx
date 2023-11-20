@@ -9,7 +9,7 @@ function BackgroundShade(porps: IBackgroundShadeProps) {
 
   return (
     <div
-      className="fixed w-screen h-screen bg-black opacity-20 z-30 md:hidden"
+      className="fixed w-screen h-screen bg-black opacity-20 z-20 md:hidden"
       onClick={onClick}
     ></div>
   );
