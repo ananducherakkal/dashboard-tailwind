@@ -2,18 +2,17 @@ import { cn } from "@/utils/className";
 import * as React from "react";
 
 const buttonVariants = {
-  default:
-    "inline-flex items-center justify-center font-medium focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50",
+  default: "",
   variant: {
     default:
-      "bg-primary text-text border-2 border-primary hover:opacity-80 active:opacity-100 active:bg-white active:text-primary",
+      "bg-primary text-text border-2 border-primary hover:bg-primary/80 hover:border-primary/80 active:bg-transparent active:text-primary rounded-md",
     secondary:
-      "bg-primary text-text border-2 border-primary hover:opacity-80 active:opacity-100 active:bg-white active:text-primary",
-    "outline-light":
       "bg-transparent text-text-light border-2 border-text-light hover:bg-text-light/10 active:opacity-100 active:bg-text-light/20",
+    "outline-light":
+      "bg-transparent text-text-light border-2 border-text-light hover:bg-text-light/10 active:opacity-100 active:bg-text-light/20 rounded-md",
   },
   size: {
-    default: "h-10 px-4 py-2",
+    default: "h-14 font-lg px-4 py-2 font-semibold",
     sm: "h-6 px-3 min-w-[48px] rounded-xl text-xs border-1",
   },
 };

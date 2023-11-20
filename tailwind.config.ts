@@ -18,7 +18,7 @@ const config: Config = {
     extend: {
       colors: {
         primary: {
-          DEFAULT: "rgb(var(--primary) / <alpha-value>)",
+          DEFAULT: "rgb(var(--primary-50) / <alpha-value>)",
           foreground: "rgb(var(--text) / <alpha-value>)",
         },
         secondary: {
@@ -55,7 +55,7 @@ const config: Config = {
         },
         // shadcn
         input: "var(--bg-50)",
-        ring: "var(--primary)",
+        ring: "var(--primary-50)",
         foreground: "hsl(var(--foreground))",
         muted: {
           DEFAULT: "hsl(var(--muted))",
