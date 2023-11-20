@@ -17,6 +17,37 @@
     --text-secondary: 73 73 73;
     --text-light: 255 249 237;
     --text-light-secondary: 150 140 136;
+    /* shadcn */
+
+    --background: var(--bg-50);
+    --foreground: var(--primary);
+
+    --card: var(--bg-50);
+    --card-foreground: var(--primary);
+
+    --popover: var(--bg-50);
+    --popover-foreground: var(--primary);
+
+    --primary: var(--primary);
+    --primary-foreground: var(--gray-80);
+
+    --secondary: var(--gray-10);
+    --secondary-foreground: var(--gray-80);
+
+    --muted: var(--primary);
+    --muted-foreground: var(--gray-80);
+
+    --accent: var(--primary);
+    --accent-foreground: var(--gray-80);
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: var(--border-50);
+    --input: var(--bg-50);
+    --ring: var(--primary);
+
+    --radius: 0.5rem;
   }
 
   .dark {
