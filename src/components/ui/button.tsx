@@ -1,4 +1,4 @@
-import { cn } from "@/utils/className";
+import { cn } from "@/utils/shadcn";
 import * as React from "react";
 
 const buttonVariants = {
