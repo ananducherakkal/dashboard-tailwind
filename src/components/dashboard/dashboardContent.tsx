@@ -4,6 +4,7 @@ import DashboardCard2 from "./dashboardCard2";
 import DashboardCard3 from "./dashboardCard3";
 import DashboardCard4 from "./dashboardCard4";
 import DashboardCard5 from "./dashboardCard5";
+import DashboardCard6 from "./dashboardCard6";
 
 function DashboardContent() {
   return (
@@ -13,7 +14,7 @@ function DashboardContent() {
       <DashboardCard3 />
       <DashboardCard4 />
       <DashboardCard5 />
-      <DashboardCard1 />
+      <DashboardCard6 />
     </div>
   );
 }
