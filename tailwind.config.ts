@@ -36,6 +36,7 @@ const config: Config = {
         },
         gray: {
           10: "rgb(var(--gray-10) / <alpha-value>)",
+          30: "rgb(var(--gray-30) / <alpha-value>)",
           40: "rgb(var(--gray-40) / <alpha-value>)",
           60: "rgb(var(--gray-60) / <alpha-value>)",
           70: "rgb(var(--gray-70) / <alpha-value>)",

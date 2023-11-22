@@ -7,7 +7,7 @@ const buttonVariants = {
     default:
       "bg-primary text-text border-2 border-primary hover:bg-primary/80 hover:border-primary/80 active:bg-transparent active:text-primary rounded-md",
     secondary:
-      "bg-transparent text-text-light border-2 border-text-light hover:bg-text-light/10 active:opacity-100 active:bg-text-light/20",
+      "bg-gray-70 text-text-light-secondary border-2 border-gray-70 hover:bg-gray-70/80 hover:border-gray-70/80 active:bg-transparent active:text-gray-70 rounded-md",
     "outline-light":
       "bg-transparent text-text-light border-2 border-text-light hover:bg-text-light/10 active:opacity-100 active:bg-text-light/20 rounded-md",
   },
