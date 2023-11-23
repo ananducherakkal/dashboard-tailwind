@@ -23,9 +23,9 @@ const DocumentDownloadIcon = ({ className, ...props }: IconProps) => {
       <path
         d="M12 18L16 22M16 22L20 18M16 22V14"
         stroke="#36373E"
-        stroke-width="1.5"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   );
