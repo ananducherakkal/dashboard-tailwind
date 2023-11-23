@@ -20,7 +20,7 @@ function DashboardHeader() {
           placeholder="Search something..."
           icon={<MagnifingGlassIcon className="h-4 w-4" />}
           iconPosition="left"
-          className="mx-auto w-48 hidden md:block"
+          className="mx-auto w-64 hidden lg:block"
         />
       </div>
       <div className="flex space-x-2">
