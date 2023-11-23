@@ -2,11 +2,13 @@
 import React, { useEffect, useRef } from "react";
 import * as d3 from "d3";
 import { cn } from "@/utils/shadcn";
+import { formatNumber } from "@/utils/chart";
 
 export type WebsiteTrafficChartData = {
   id: string | number;
   color: string;
   value: number;
+  label: string;
 };
 
 export type WebsiteTrafficChartOptions = {
@@ -125,9 +127,28 @@ const WebsiteTrafficChart = (props: WebsiteTrafficChartProps) => {
   }, [data]);
 
   return (
-    <svg ref={svgRef} className={cn("w-full h-full", className)}>
-      <g className="loading-circles" />
-    </svg>
+    <div className={cn("mt-4", className)}>
+      <div className="w-36 h-36 mx-auto relative flex items-center justify-center">
+        <svg ref={svgRef} className="w-full h-full">
+          <g className="loading-circles" />
+        </svg>
+        <div className="font-bold text-xl text-text absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+          {formatNumber(totalValue)}
+        </div>
+      </div>
+      <div className="flex flex-col text-text mt-4">
+        {data.length &&
+          data.map((item) => (
+            <div className="h-10 flex items-center">
+              <div
+                style={{ backgroundColor: item.color }}
+                className={`h-6 w-6 rounded-sm mr-3`}
+              ></div>
+              <div className="text-base font-semibold">{item.label}</div>
+            </div>
+          ))}
+      </div>
+    </div>
   );
 };
 

@@ -10,9 +10,11 @@ const buttonVariants = {
       "bg-gray-70 text-text-light-secondary border-2 border-gray-70 hover:bg-gray-70/80 hover:border-gray-70/80 active:bg-transparent active:text-gray-70 rounded-md",
     "outline-light":
       "bg-transparent text-text-light border-2 border-text-light-secondary hover:border-text-light active:opacity-100 active:bg-text-light/20 rounded-md",
+    transparent:
+      "bg-transparent text-text-light-secondary hover:text-text-light",
   },
   size: {
-    default: "h-14 font-lg px-4 py-2 font-semibold",
+    default: "h-14 text-base px-4 py-2 font-semibold",
     sm: "h-6 px-3 min-w-[48px] rounded-xl text-xs",
   },
 };

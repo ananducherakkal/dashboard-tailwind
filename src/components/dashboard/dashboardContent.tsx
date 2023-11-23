@@ -8,7 +8,7 @@ import DashboardCard6 from "./dashboardCard6";
 
 function DashboardContent() {
   return (
-    <div className="w-full flex-1 pt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
+    <div className="w-full flex-1 pt-10 grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-4 md:gap-6">
       <DashboardCard1 />
       <DashboardCard2 />
       <DashboardCard3 />

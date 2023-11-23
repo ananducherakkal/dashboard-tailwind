@@ -1,4 +1,4 @@
-import { cn } from "@/utils/className";
+import { cn } from "@/utils/shadcn";
 import * as React from "react";
 
 const inputVariants = {
@@ -105,8 +105,8 @@ const Input = React.forwardRef<HTMLInputElement, IInputProps>(
             defaultChildClassName,
             variantChildClassName,
             prefixChildClassName,
-            iconChildClassName,
             sizeChildClassName,
+            iconChildClassName,
             inputClassName
           )}
           ref={ref}
