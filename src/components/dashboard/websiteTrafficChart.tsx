@@ -139,7 +139,7 @@ const WebsiteTrafficChart = (props: WebsiteTrafficChartProps) => {
       <div className="flex flex-col text-text mt-4">
         {data.length &&
           data.map((item) => (
-            <div className="h-10 flex items-center">
+            <div key={item.label} className="h-10 flex items-center">
               <div
                 style={{ backgroundColor: item.color }}
                 className={`h-6 w-6 rounded-sm mr-3`}

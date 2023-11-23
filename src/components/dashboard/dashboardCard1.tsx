@@ -5,17 +5,16 @@ import WebsiteTrafficChart, {
 } from "./websiteTrafficChart";
 import Button from "../ui/button";
 
+const data: Array<WebsiteTrafficChartData> = [
+  { id: 1, color: "#968C88", value: 4500, label: "Social Media" },
+  { id: 2, color: "#36373E", value: 8000, label: "Organic search" },
+];
+
 function DashboardCard1() {
-  const data: Array<WebsiteTrafficChartData> = [
-    { id: 1, color: "#968C88", value: 4500, label: "Social Media" },
-    { id: 2, color: "#36373E", value: 8000, label: "Organic search" },
-  ];
   return (
     <DashboardCardWrapper>
       <div className="w-full flex items-start">
-        <div className="font-bold text-text text-lg mr-auto">
-          Website Traffic
-        </div>
+        <h2 className="font-bold text-text text-lg mr-auto">Website Traffic</h2>
         <Button
           variant="transparent"
           className="font-semibold text-text hover:text-text-secondary active:text-text-secondary/80"

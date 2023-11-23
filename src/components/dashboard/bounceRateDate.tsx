@@ -6,7 +6,7 @@ const dates = getDayAndDate();
 
 function BounceRateDate() {
   return (
-    <div className="flex space-x-2 justify-center px-4 m-auto">
+    <div className="flex space-x-2 justify-center m-auto">
       <BounceRateDateItems
         day={dates.yesterday.day}
         date={dates.yesterday.date}

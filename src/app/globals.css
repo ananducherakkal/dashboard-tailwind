@@ -135,6 +135,10 @@
   .bg-background-grad {
     background-image: linear-gradient(to bottom, #f6f6f6, #fafafa);
   }
+  .active-bar-graph-bg {
+    background-image: url("/images/active-graph-background.svg");
+    background-size: 120% 100%;
+  }
 
   *::-webkit-scrollbar {
     width: 5px;

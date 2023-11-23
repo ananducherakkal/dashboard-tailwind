@@ -11,7 +11,7 @@ function DashboardCardWrapper(props: IDashboardCardWrapper) {
   return (
     <div
       className={cn(
-        "w-full h-[340px] bg-primary rounded-lg p-8 flex flex-col",
+        "w-full h-[340px] bg-primary rounded-lg py-8 px-8 md:px-[10%] flex flex-col overflow-visible",
         className
       )}
     >

@@ -1,8 +1,6 @@
 import React from "react";
 import DashboardCardWrapper from "./dashboardCardWrapper";
 import Button from "../ui/button";
-import BarGraphIcon from "../icons/barGraph";
-import Image from "next/image";
 import styles from "@/styles/dashboardCard5.module.css";
 
 function DashboardCard5() {

@@ -11,7 +11,7 @@ const buttonVariants = {
     "outline-light":
       "bg-transparent text-text-light border-2 border-text-light-secondary hover:border-text-light active:opacity-100 active:bg-text-light/20 rounded-md",
     transparent:
-      "bg-transparent text-text-light-secondary hover:text-text-light",
+      "bg-transparent text-text-light-secondary hover:text-text-light active:text-text-light/80",
   },
   size: {
     default: "h-14 text-base px-4 py-2 font-semibold",

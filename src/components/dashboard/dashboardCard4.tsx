@@ -1,7 +1,6 @@
 import React from "react";
 import DashboardCardWrapper from "./dashboardCardWrapper";
 import Button from "../ui/button";
-import DocumentDownloadIcon from "../icons/documentDownload";
 import BarGraphIcon from "../icons/barGraph";
 import Image from "next/image";
 
@@ -15,8 +14,10 @@ function DashboardCard4() {
         >
           <BarGraphIcon className="w-6 h-6 text-primary" />
         </Button>
-        <div className="font-bold text-lg mr-auto">ROI</div>
-        <div className="text-text-light-secondary mb-auto">More</div>
+        <h2 className="font-bold text-lg mr-auto">ROI</h2>
+        <Button variant="transparent" className="font-semibold" size="sm">
+          More
+        </Button>
       </div>
       <div className="flex flex-col mt-auto">
         <div className="text-text-light text-5xl">283%</div>
