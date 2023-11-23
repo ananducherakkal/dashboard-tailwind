@@ -9,8 +9,8 @@ import StoreProvider from "@/redux/storeProvider";
 
 function DashboardHeader() {
   return (
-    <div className="w-full flex items-start">
-      <div className="flex items-center flex-1">
+    <div className="w-full flex items-start flex-wrap">
+      <div className="flex items-center flex-1 mr-2 mb-4">
         <StoreProvider>
           <SidebarToggleButton className="mr-2" />
         </StoreProvider>

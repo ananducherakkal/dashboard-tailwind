@@ -16,7 +16,7 @@ function SidebarToggleButton(props: SidebarToggleButtonProps) {
 
   return (
     <div
-      className={cn("w-6 h-6 cursor-pointer lg:hidden", className)}
+      className={cn("w-8 h-8 cursor-pointer lg:hidden", className)}
       onClick={() => {
         dispatch(toggleSidebar());
       }}
