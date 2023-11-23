@@ -14,13 +14,13 @@ function SidebarWrapper({ children }: ISidebarWrapperProps) {
 
   return (
     <>
-      <div
-        className={`w-72 h-screen fixed top-0 left-0 z-30 bg-background border-r border-border-50 text-text-light ${
+      <nav
+        className={`w-72 h-screen min-h-fit overflow-auto fixed top-0 left-0 z-30 bg-background border-r border-border-50 text-text-light ${
           open ? "flex flex-col" : "hidden"
         } md:flex flex-col md:sticky`}
       >
         {children}
-      </div>
+      </nav>
       {open && (
         <BackgroundShade
           onClick={() => {
