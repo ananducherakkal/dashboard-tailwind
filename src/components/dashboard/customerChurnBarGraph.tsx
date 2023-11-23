@@ -101,6 +101,7 @@ export function BarChart({ data }: BarChartProps) {
     return () => {
       window.removeEventListener("resize", drawChart);
     };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return <svg ref={svgRef} className="w-full h-full"></svg>;

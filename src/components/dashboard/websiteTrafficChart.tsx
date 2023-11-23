@@ -113,6 +113,7 @@ const WebsiteTrafficChart = (props: WebsiteTrafficChartProps) => {
   };
 
   useEffect(() => {
+    drawChart(true);
     const handleResize = () => {
       drawChart(false);
     };
@@ -120,10 +121,7 @@ const WebsiteTrafficChart = (props: WebsiteTrafficChartProps) => {
     return () => {
       window.removeEventListener("resize", handleResize);
     };
-  }, []);
-
-  useEffect(() => {
-    drawChart(true);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [data]);
 
   return (
