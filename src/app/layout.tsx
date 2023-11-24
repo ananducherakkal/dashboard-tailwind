@@ -1,3 +1,4 @@
+import { cookies } from "next/headers";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
@@ -9,13 +10,18 @@ export const metadata: Metadata = {
   description: "Sample website for dashboard with tailwind",
 };
 
-export default function RootLayout({
-  children,
-}: {
+interface IRootLayout {
   children: React.ReactNode;
-}) {
+}
+
+export default function RootLayout(props: IRootLayout) {
+  const { children } = props;
+
+  const cookieStore = cookies();
+  const theme = cookieStore.get("theme");
+
   return (
-    <html lang="en">
+    <html lang="en" className={theme?.value === "dark" ? "dark" : ""}>
       <body className={inter.className}>{children}</body>
     </html>
   );

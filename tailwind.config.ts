@@ -34,6 +34,7 @@ const config: Config = {
           DEFAULT: "rgb(var(--border-50) / <alpha-value>)",
           50: "rgb(var(--border-50) / <alpha-value>)",
           30: "rgb(var(--border-30) / <alpha-value>)",
+          10: "rgb(var(--border-10) / <alpha-value>)",
         },
         gray: {
           10: "rgb(var(--gray-10) / <alpha-value>)",
