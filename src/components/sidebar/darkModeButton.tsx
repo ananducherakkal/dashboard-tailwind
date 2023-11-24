@@ -7,11 +7,11 @@ import SunIcon from "../icons/sun";
 import cookie from "js-cookie";
 
 const DarkModeButton = () => {
-  const [darkMode, setDarkMode] = useState<boolean>(false);
+  const [darkMode, setDarkMode] = useState<boolean>(true);
 
   useEffect(() => {
-    const _darkMode = cookie.get("theme");
-    setDarkMode(_darkMode === "dark");
+    const theme = cookie.get("theme") || "dark";
+    setDarkMode(theme === "dark");
   }, []);
 
   const handleDarkModeChange = (event: React.ChangeEvent<HTMLInputElement>) => {

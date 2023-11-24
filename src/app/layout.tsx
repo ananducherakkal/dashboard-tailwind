@@ -18,10 +18,11 @@ export default function RootLayout(props: IRootLayout) {
   const { children } = props;
 
   const cookieStore = cookies();
-  const theme = cookieStore.get("theme");
+  const themeCookie = cookieStore.get("theme");
+  const theme = themeCookie?.value || "dark";
 
   return (
-    <html lang="en" className={theme?.value === "dark" ? "dark" : ""}>
+    <html lang="en" className={theme === "dark" ? "dark" : ""}>
       <body className={inter.className}>{children}</body>
     </html>
   );
