@@ -26,7 +26,7 @@ function SidebarProfile() {
           Anandu Cherakkal
         </div>
       </Tooltip>
-      <Button variant="outline-light" size="sm" className="mt-2">
+      <Button variant="outline" size="sm" className="mt-2">
         Edit
       </Button>
     </div>

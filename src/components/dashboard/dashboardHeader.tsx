@@ -25,7 +25,7 @@ function DashboardHeader() {
       </div>
       <div className="flex space-x-2">
         <Button>Upgrade</Button>
-        <Button variant="outline-light">
+        <Button variant="outline">
           <BellIcon />
         </Button>
       </div>

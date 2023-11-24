@@ -7,7 +7,7 @@ import DocumentDownloadIcon from "../icons/documentDownload";
 function DashboardCard2() {
   return (
     <DashboardCardWrapper className={`bg-gray-70 ${styles.card}`}>
-      <h2 className="font-bold text-lg mr-auto">Full report</h2>
+      <h2 className="text-text-light font-bold text-lg mr-auto">Full report</h2>
       <div className="flex-1 flex flex-col justify-center items-center">
         <div className="bg-gray-70 rounded-lg w-full mt-6">
           <Button

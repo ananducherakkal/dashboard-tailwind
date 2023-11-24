@@ -14,7 +14,7 @@ function DashboardCard4() {
         >
           <BarGraphIcon className="w-6 h-6 text-primary" />
         </Button>
-        <h2 className="font-bold text-lg mr-auto">ROI</h2>
+        <h2 className="text-text-light font-bold text-lg mr-auto">ROI</h2>
         <Button variant="transparent" className="font-semibold" size="sm">
           More
         </Button>

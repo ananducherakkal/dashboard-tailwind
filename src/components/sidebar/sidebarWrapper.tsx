@@ -15,7 +15,7 @@ function SidebarWrapper({ children }: ISidebarWrapperProps) {
   return (
     <>
       <nav
-        className={`w-72 h-screen min-h-fit overflow-auto fixed lg:sticky top-0 right-full lg:left-0 z-30 bg-background border-r border-border-50 text-text-light flex flex-col transition-transform lg:transform-none lg:translate-x-0 ${
+        className={`w-72 h-screen min-h-fit overflow-auto fixed lg:sticky top-0 right-full lg:left-0 z-30 bg-background-light dark:bg-background border-r border-border-50 text-text dark:text-text-light flex flex-col transition-transform lg:transform-none lg:translate-x-0 ${
           open ? "translate-x-72" : "translate-x-0"
         }`}
       >
